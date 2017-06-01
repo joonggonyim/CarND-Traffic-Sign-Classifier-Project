@@ -26,8 +26,18 @@ The goals / steps of this project are the following:
 [image5]: ./md_img/all_class_show_gray.png "Shows all classes gray"
 [image6]: ./md_img/data_augment_example.png "Data Augment EX"
 [image7]: ./md_img/training_result.png "Training Result"
-[image7]: ./md_img/extra_img.png "Extra Images"
-[image8]: ./md_img/predicition_new_img.png "New img prediction"
+[image8]: ./md_img/extra_img.png "Extra Images"
+
+[image9]: ./md_img/predicition_new_img4.png "New img prediction"
+[image10]: ./md_img/predicition_new_img11.png "New img prediction"
+[image11]: ./md_img/predicition_new_img13.png "New img prediction"
+[image12]: ./md_img/predicition_new_img14.png "New img prediction"
+[image13]: ./md_img/predicition_new_img21.png "New img prediction"
+[image14]: ./md_img/predicition_new_img22.png "New img prediction"
+[image15]: ./md_img/predicition_new_img28.png "New img prediction"
+[image16]: ./md_img/predicition_new_img31.png "New img prediction"
+[image17]: ./md_img/predicition_new_img38.png "New img prediction"
+
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -164,7 +174,7 @@ Since the validation and testing dataset both achieve over 90% classification ac
 
 Here are nine German traffic signs that I found on the web:
 
-![alt text][image7]
+![alt text][image8]
 
 All the images were much higher resolution than the images I used to train the classifier. The images I downloaded were roughly around 300 x 300 (around 100x larger than the training images). The images were down sampled to match the 32 x 32 size restriction. during this process, the image lost a lot of pixels (information). Some images like class 21 and class 28 look very similar when the resolution is low. 
 
@@ -172,7 +182,16 @@ All the images were much higher resolution than the images I used to train the c
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
-![alt text][image8]
+![alt text][image9]
+![alt text][image10]
+![alt text][image11]
+![alt text][image12]
+![alt text][image13]
+![alt text][image14]
+![alt text][image15]
+![alt text][image16]
+![alt text][image17]
+
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
